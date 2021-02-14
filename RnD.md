@@ -16,11 +16,15 @@
   ```
 - Anima gained
   - EVENT: "PLAYER_CHOICE_UPDATE"
+- Chests Opened
+  - TODO
 - Phantasma gained
   - ItemID: 1728?
   - EVENT: "CURRENCY_DISPLAY_UPDATE"
 - Mawrats killed
   - EVENT: "COMBAT_LOG_EVENT_UNFILTERED" - SUBEVENT: "UNIT_DIED" (Name="Mawrat")
+- Rares killed
+  - TODO
 - Jars broken
   - EVENT: "COMBAT_LOG_EVENT_UNFILTERED" - SUBEVENT: "SPELL_AURA_REMOVED" (Name="Ashen Phylactery")
 - Soul Remnant's Blessing
@@ -37,6 +41,7 @@
     - Biggest Hit
 - Clear Time (Timer) (Store all clears)
   - EVENT: "PLAYER_ENTERING_WORLD"
+- Time per Floor
 - Best Time 
   - Top clear time
 - Total Clears
